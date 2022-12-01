@@ -1,0 +1,236 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+      <nav class="navigation">
+        <div class="logo left">
+            <i id="menu" class="material-icons">menu</i>
+            <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+          </div>
+          
+          <div class="search center">
+            <form action="">
+              <input type="text" placeholder="Search" />
+              <button><i class="material-icons">search</i></button>
+            </form>
+            <i class="material-icons mic">mic</i>
+          </div>
+          
+          <div class="icons right">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+          </div>
+      </nav>
+      <main>
+          <div class="side-bar">
+            <div class="nav">
+                <a class="nav-link active">
+                  <i class="material-icons">home</i>
+                  <span>Home</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                 </a>
+                 <a class="nav-link">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                 </a>
+            </div>
+            <hr>
+            <a class="nav-link">
+                <i class="material-icons">library_add_check</i>
+                <span>Library</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">history</i>
+                <span>History</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">play_arrow</i>
+                <span>Your Videos</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">watch_later</i>
+                <span>Watch Later</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">thumb_up</i>
+                <span>Liked Videos</span>
+             </a>
+          </div>
+        <div class="content">
+            <div class="videos">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://img.youtube.com/vi/d9MyW72ELq0/maxresdefault.jpg" alt="" />
+                    </div>
+              
+                    <div class="details">
+                        <div class="author">
+                              <img src="https://yt3.ggpht.com/ytc/AMLnZu-qPHlOU8j2gApNMNDn0NPBxTZyrDovuamHV3jh_Q=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Avatar: The Way of Water | Official Trailer
+                            </h3>
+                            <a href="">
+                                Avatar&check;
+                            </a>
+                            <span> 38 M Views • 3 Weeks Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://img.youtube.com/vi/TGHqBX1YJRc/maxresdefault.jpg" alt="" />
+                    </div>
+              
+                    <div class="details">
+                        <div class="author">
+                              <img src="https://yt3.ggpht.com/oQ2NQMuq-9IS6_MZdsGXa0RWecaACremA01Z7jo-YpoEF1H6PyUF8PZzXkV10OYwSP3UMJDeTg=s88-c-k-c0x00ffffff-no-rj" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                The Men who Built India | Untold Story of Tata | Dhruv Rathee
+                            </h3>
+                            <a href="">
+                                Dhruv Rathee
+                            </a>
+                            <span> 4.7M Views • 16 Days Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://img.youtube.com/vi/7zqNL-nzYfI/maxresdefault.jpg" alt="" />
+                    </div>
+              
+                    <div class="details">
+                        <div class="author">
+                              <img src="https://yt3.ggpht.com/Ikb1C4ih2VMvfjma8OO5b39JnHL2CQcQgksB_I7TM-gGA3ERTY589OeLKCYyRQQO0nkE54-f=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                I tested 9 Gadgets that Think Different
+                            </h3>
+                            <a href="">
+                                Mrwhosetheboss&check;
+                            </a>
+                            <span> 2.9M Views • 2 Weeks Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://img.youtube.com/vi/gKw1zS5zU_I/maxresdefault.jpg" alt="" />
+                    </div>
+              
+                    <div class="details">
+                        <div class="author">
+                              <img src="https://yt3.ggpht.com/Vvo-OMj7hW3JnPzGEBko98-60kAtL9NmEgOetc2PhgEPKF5H-bHBa8cwsQ1UXaG3jffG97bLuw=s88-c-k-c0x00ffffff-no-rj" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Why Virat Kohli Is Called "The King👑" | The Test | Prime Video
+                            </h3>
+                            <a href="">
+                                Prime Video India
+                            </a>
+                            <span> 3.6M Views • 3 Weeks Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://img.youtube.com/vi/sek3FhByr6w/maxresdefault.jpg" alt="" />
+                    </div>
+              
+                    <div class="details">
+                        <div class="author">
+                              <img src="https://yt3.ggpht.com/5wrdyz0HczrcCtinh-zwHrlXbwXu2CgzyTGh3pVg7lvaFLei6Fpa0FFaAgMp0t8mgHkA1o3vHg=s88-c-k-c0x00ffffff-no-nd-rj" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                DIVINE - Baazigar feat. Armani White | Prod. by Karan Kanchan | Official Audio
+                            </h3>
+                            <a href="">
+                                DIVINE
+                            </a>
+                            <span> 8.5M Views • 12 Days Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://img.youtube.com/vi/TcMBFSGVi1c/maxresdefault.jpg" alt="" />
+                    </div>
+              
+                    <div class="details">
+                        <div class="author">
+                              <img src="https://yt3.ggpht.com/fGvQjp1vAT1R4bAKTFLaSbdsfdYFDwAzVjeRVQeikH22bvHWsGULZdwIkpZXktcXZc5gFJuA3w=s88-c-k-c0x00ffffff-no-rj" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Marvel Studios' Avengers: Endgame - Official Trailer
+                            </h3>
+                            <a href="">
+                                Marvel Entertainment
+                            </a>
+                            <span> 156M Views • 3 Years Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://img.youtube.com/vi/Tnfs0MZsBBE/maxresdefault.jpg" alt="" />
+                    </div>
+              
+                    <div class="details">
+                        <div class="author">
+                              <img src="https://yt3.ggpht.com/Y0YHXq8Q0p7CznN7iPm2GQ0FRzfnHQbwlBW85vrN5RIM4vi9pTnAsblvdOJS5LnARTK9Zb_iN_w=s88-c-k-c0x00ffffff-no-rj" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Ram Ram | MC SQUARE | Hustle 2.0
+                            </h3>
+                            <a href="">
+                                KaanPhod Music
+                            </a>
+                            <span> 55M Views • 20 Days Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://img.youtube.com/vi/ltD4TVN9wAY/maxresdefault.jpg" alt="" />
+                    </div>
+              
+                    <div class="details">
+                        <div class="author">
+                              <img src="https://yt3.ggpht.com/lkH37D712tiyphnu0Id0D5MwwQ7IRuwgQLVD05iMXlDWO-kDHut3uI4MgIEAQ9StK0qOST7fiA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                World's First Intel ARC PC Build! (A770)
+                            </h3>
+                            <a href="">
+                                Marques Brownlee
+                            </a>
+                            <span> 5.5M Views • 1 Month Ago </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
+</body>
+</html
